@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="app_title">Show text</string>
+    <string name="input_text">Write some text</string>
+    <string name="title_text_view">PIL HELLO WORLD</string>
+
+</resources>

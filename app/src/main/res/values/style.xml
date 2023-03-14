@@ -1,0 +1,36 @@
+<resources>
+    <style name="button_edit_text" parent="TextAppearance.AppCompat">
+        <item name="backgroundTint">#000000</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/app_title</item>
+    </style>
+
+    <style name="edit_text_field" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_edit_text</item>
+        <item name="android:hint">@string/input_text</item>
+        <item name="android:textSize">@dimen/edit_text_size</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="title_text" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/title_text_view</item>
+        <item name="layout_constraintBottom_toTopOf">@id/edit_text</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+</resources>
