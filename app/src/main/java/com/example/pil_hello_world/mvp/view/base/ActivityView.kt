@@ -1,4 +1,4 @@
-package com.example.pil_hello_world
+package com.example.pil_hello_world.mvp.view.base
 
 import android.app.Activity
 import java.lang.ref.WeakReference
